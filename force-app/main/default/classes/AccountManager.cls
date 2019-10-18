@@ -10,6 +10,7 @@ global with sharing class AccountManager {
                         FROM account
                         WHERE Id = :accountId];
         return result;
+        // System.debug("Hello");
     }
          
 }
